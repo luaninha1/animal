@@ -1,0 +1,61 @@
+body {
+
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('assets/animais.capa.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px (0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+input[type='text'],
+select,
+button {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: calc(100% - 40px);
+}
+
+button {
+  background-color: #FFA500;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffd700; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
